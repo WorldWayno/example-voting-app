@@ -8,11 +8,11 @@ postgresql:
   enabled: true
   persistence:
     enabled: false
+    size: 2Gi
   # Uncomment line below and set to postgres host fqdn is using postgres outside release
   # postgresServer: postgres_host_fqdn
   postgresUser: postgres
   postgresPassword: postgres
-  size: 2Gi
 
 # Enabling redis service, by default
 redis:
@@ -20,3 +20,4 @@ redis:
   usePassword: false
   persistence:
     enabled: false
+    size: 2Gi
